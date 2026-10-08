@@ -1,0 +1,22 @@
+{
+  "name": "seestack-mods",
+  "owner": {
+    "name": "See Stack",
+    "url": "https://github.com/seestack-dev"
+  },
+  "metadata": {
+    "description": "Official Claude Code mods by See Stack: interactive context bar, voice player, and developer tools."
+  },
+  "plugins": [
+    {
+      "name": "context-bar",
+      "source": "./mods/context-bar",
+      "description": "Interactive 2-column context window audit bar with expandable category drilldowns, token meters, and compaction headroom."
+    },
+    {
+      "name": "read-aloud",
+      "source": "./mods/read-aloud",
+      "description": "Speaks Claude Code replies aloud in a personal voice (Ember) with a live media player deck, progress scrubber, and speech queue."
+    }
+  ]
+}

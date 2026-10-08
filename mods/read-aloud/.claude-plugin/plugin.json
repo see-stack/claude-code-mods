@@ -1,0 +1,42 @@
+{
+  "name": "read-aloud",
+  "version": "0.1.0",
+  "description": "Speak the last reply aloud on demand, in a macOS Personal Voice, with pause, skip and speed above the prompt.",
+  "author": {
+    "name": "Zain"
+  },
+  "license": "MIT",
+  "types": "./types/index.d.ts",
+  "userConfig": {
+    "voice": {
+      "title": "Voice",
+      "type": "string",
+      "description": "The voice replies are read in, by name or identifier. Ember is the Personal Voice.",
+      "default": "Ember"
+    },
+    "norwegianVoice": {
+      "title": "Norwegian voice",
+      "type": "string",
+      "description": "The voice used instead when a reply reads as Norwegian. Only used if macOS has it.",
+      "default": "Nora"
+    },
+    "rates": {
+      "title": "Rate steps",
+      "type": "string",
+      "description": "The speeds the rate button walks, as comma-separated multipliers of the normal speaking rate.",
+      "default": "1,1.25,1.5,2,0.75"
+    },
+    "maxChars": {
+      "title": "Longest reply to read",
+      "type": "number",
+      "description": "How much of a reply is read out at most, before it is cut at a word.",
+      "default": 6000
+    },
+    "speaker": {
+      "title": "EmberSpeak path",
+      "type": "string",
+      "description": "Path to the EmberSpeak executable, which is what can speak a Personal Voice. Absent or missing, the built-in system voice is used instead.",
+      "default": "~/Control-Panel/tools/ember-speak/EmberSpeak.app/Contents/MacOS/EmberSpeak"
+    }
+  }
+}

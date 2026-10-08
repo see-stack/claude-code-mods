@@ -1,0 +1,11 @@
+{
+  "name": "context-bar",
+  "version": "0.2.0",
+  "description": "Your context window as a stacked bar above the prompt, a color per category, with token counts and the compaction point. Click the ▾ to open every row's share and what sits under the rows. /context-bar shows or hides it.",
+  "author": {
+    "name": "Hamza Zafar",
+    "url": "https://github.com/hamzafer"
+  },
+  "license": "MIT",
+  "types": "./types/index.d.ts"
+}
