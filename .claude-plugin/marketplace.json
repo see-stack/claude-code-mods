@@ -2,7 +2,7 @@
   "name": "seestack-mods",
   "owner": {
     "name": "See Stack",
-    "url": "https://github.com/seestack-dev"
+    "url": "https://github.com/see-stack"
   },
   "metadata": {
     "description": "Official Claude Code mods by See Stack: interactive context bar, voice player, and developer tools."
