@@ -11,7 +11,7 @@
     {
       "name": "context-bar",
       "source": "./mods/context-bar",
-      "description": "Interactive 2-column context window audit bar with expandable category drilldowns, token meters, and compaction headroom."
+      "description": "Interactive context window audit bar with expandable category drilldowns, token meters, and compaction headroom."
     },
     {
       "name": "read-aloud",

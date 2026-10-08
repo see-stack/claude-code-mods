@@ -7,7 +7,7 @@
 
 Curated developer mods for [Claude Code](https://code.claude.com) by [See Stack](https://youtube.com/@SeeStack).
 
-Upgrade your terminal with live 2-column context window telemetry, compaction headroom alerts, and personal voice narration with media transport controls.
+Upgrade your terminal with live context window telemetry, compaction headroom alerts, and personal voice narration with media transport controls.
 
 ---
 
@@ -22,7 +22,7 @@ claude plugin marketplace add see-stack/claude-code-mods
 Then install any of the mods:
 
 ```bash
-# 1. Interactive 2-Column Context Bar with Headroom Tracking
+# 1. Interactive Context Bar with Headroom Tracking
 claude plugin install context-bar@seestack-mods
 
 # 2. Text-to-Speech Voice Player with Transport Scrubber & Queue
