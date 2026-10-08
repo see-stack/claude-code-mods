@@ -11,7 +11,7 @@ Upgrade your terminal with live context analytics, personal voice narration, and
 Add the **See Stack Marketplace** to your Claude Code installation:
 
 ```bash
-claude plugin marketplace add seestack-dev/claude-code-mods
+claude plugin marketplace add see-stack/claude-code-mods
 ```
 
 Then install any of the mods:
