@@ -5,3 +5,4 @@ dist/
 .in_use/
 *.state
 *.txt
+mods/**/*.js

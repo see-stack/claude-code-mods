@@ -83,14 +83,23 @@ A live stacked context window audit HUD placed directly above your prompt with a
 * **Slash Command**: Type `/context-bar` inside any Claude Code session to toggle visibility.
 
 ```text
-┌─────────────────────────────────────────────────────────────┐  [-]
-│ ◆ context                                     51k of 200k   │
-│ █■■■██████████████───────────────────────────────────────── │
-│ ■ system prompt  2k  1.0%      ■ system tools   42k  21.0%  │
-│ ▶ ■ memory files 2.9k 1.4%     ▶ ■ skills        2.8k  1.4% │
-│ ■ messages       713 0.4%      ─ free space    116k  58.0%  │
-│ ░ autocompact buffer 33k                                    │
-└─────────────────────────────────────────────────────────────┘
+┌──────────────────────────────────────────────────────────────┐
+│ ◆ context            75k of 200k · compacts at 167k  38% ▾   │
+│ █■■■███████████████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ │
+│ detail                                                       │
+│ ▶ ■ system prompt    █·························   2k    1%   │
+│ ▶ ■ system tools     ██████████················  19k  9.5%   │
+│ ▶ ■ memory files     █························· 3.1k  1.5%   │
+│ ▶ ■ skills           █························· 2.6k  1.3%   │
+│ ▶ ■ messages         ██████████████████········  49k   24%   │
+│   ─ free space       ──────────────────────────  92k   46%   │
+│   ░ autocompact buf… ░░░░░░░░··················  33k   17%   │
+│                                                              │
+│ slash commands  42 of 42 · 1.4k                              │
+│ window  claude-sonnet-5-5 · compacts at 167k                 │
+│                                                              │
+│ [ Minimize ]                                                 │
+└──────────────────────────────────────────────────────────────┘
 ```
 
 ---
