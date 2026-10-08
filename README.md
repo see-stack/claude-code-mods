@@ -71,14 +71,14 @@ claude plugin enable read-aloud@seestack-mods
 ## 🛠 Featured Mods
 
 ### 1. `context-bar`
-A live stacked context window audit HUD placed directly above your prompt so you never burn 40,000 tokens on stale logs or get surprised by auto-compaction.
+A live stacked context window audit HUD placed directly above your prompt with an interactive collapsible accordion dropdown so you never burn 40,000 tokens on stale logs or get surprised by auto-compaction.
 
-![Context Bar Demo](assets/context-bar-demo.gif)
+![Context Bar Accordion Details View](assets/context-bar-dropdown.png)
 
 #### Key Features:
-* **2-Column Layout**: Cuts vertical height in half to preserve valuable terminal real estate.
+* **Interactive Accordion Dropdown**: Click anywhere on the header to reveal the full itemized audit (`detail`), or hit `[ Minimize ]` to collapse back to a single compact line.
 * **Inline Drilldowns**: Click `▶` directly on `memory files` or `skills` to expand their itemized breakdown without repeating headers.
-* **Auto-Compaction Headroom**: Real-time tracking of safety headroom before auto-compaction triggers (e.g. `compacts at 167k`).
+* **Auto-Compaction Headroom**: Real-time tracking of safety headroom before auto-compaction triggers (e.g. `compacts at 167k [38%]`).
 * **Visual Token Meter**: Color-coded segments for system prompt, system tools, memory files, skills, messages, and free space.
 * **Slash Command**: Type `/context-bar` inside any Claude Code session to toggle visibility.
 
