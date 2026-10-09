@@ -4,6 +4,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-emerald.svg?style=flat-square)](LICENSE)
 [![YouTube: See Stack](https://img.shields.io/badge/YouTube-See%20Stack-red?style=flat-square&logo=youtube)](https://youtube.com/@SeeStack)
 [![Website: seestack.dev](https://img.shields.io/badge/Web-seestack.dev-cyan?style=flat-square)](https://seestack.dev/mods)
+[![Store: Pro Kit](https://img.shields.io/badge/Store-Pro%20Starter%20Kit-ffc439?style=flat-square&logo=lemonsqueezy)](https://seestack.lemonsqueezy.com/checkout/buy/88579484-e60b-4831-8aac-ac3af1c28010)
 
 Curated developer mods for [Claude Code](https://code.claude.com) by [See Stack](https://youtube.com/@SeeStack).
 
