@@ -5,6 +5,8 @@
 [![YouTube: See Stack](https://img.shields.io/badge/YouTube-See%20Stack-red?style=flat-square&logo=youtube)](https://youtube.com/@SeeStack)
 [![Website: seestack.dev](https://img.shields.io/badge/Web-seestack.dev-cyan?style=flat-square)](https://seestack.dev/mods)
 
+> 🔴 **Step 1: [Subscribe to @SeeStack on YouTube](https://youtube.com/@seestack?sub_confirmation=1) for new weekly Claude Code mods and AI agent tools!**
+
 Curated developer mods for [Claude Code](https://code.claude.com) by [See Stack](https://youtube.com/@SeeStack).
 
 Upgrade your terminal with live context window telemetry, compaction headroom alerts, and personal voice narration with media transport controls.
