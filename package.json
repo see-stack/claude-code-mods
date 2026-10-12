@@ -1,6 +1,6 @@
 {
   "name": "seestack",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Official Claude Code Mods & Telemetry CLI by See Stack",
   "main": "bin/cli.js",
   "bin": {
