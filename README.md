@@ -127,6 +127,12 @@ Brings a high-quality audio deck and Text-to-Speech into Claude Code with full m
 | `⏮` / `⏭` | **Reply Step** | Jumps across queued assistant replies |
 | `r` | **Speed Multiplier** | Cycles playback speed: `1×` ➔ `1.25×` ➔ `1.5×` ➔ `2×` |
 
+```text
+┌──────────────────────────────────────────────────────────────┐
+│ ♪ Ember · 1 of 2   |◀  ⏹  ‹  ████████──────  ›  ⏸  1×  ▶|   │
+└──────────────────────────────────────────────────────────────┘
+```
+
 ---
 
 ## 🔧 Useful Commands Inside Claude Code
