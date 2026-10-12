@@ -1,0 +1,39 @@
+{
+  "name": "seestack",
+  "version": "1.0.1",
+  "description": "Official Claude Code Mods & Telemetry CLI by See Stack",
+  "main": "bin/cli.js",
+  "bin": {
+    "seestack": "bin/cli.js",
+    "seestack-mods": "bin/cli.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/see-stack/claude-code-mods.git"
+  },
+  "keywords": [
+    "claude-code",
+    "claude",
+    "anthropic",
+    "mods",
+    "plugins",
+    "seestack",
+    "ai-agents",
+    "terminal",
+    "context-bar",
+    "telemetry"
+  ],
+  "author": "See Stack (https://seestack.dev)",
+  "license": "MIT",
+  "homepage": "https://seestack.dev/mods",
+  "bugs": {
+    "url": "https://github.com/see-stack/claude-code-mods/issues"
+  },
+  "files": [
+    "bin",
+    "mods",
+    ".claude-plugin",
+    "README.md",
+    "LICENSE"
+  ]
+}
